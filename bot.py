@@ -1,13 +1,9 @@
 import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from dotenv import load_dotenv
 
-# Load environment variables from .env file (for local testing)
-load_dotenv()
-
-# Get your bot token from environment variable
-TOKEN = os.getenv("TOKEN")
+# Directly hardcode your bot token here
+TOKEN = "7718821913:AAEgDmZmevfua0NWLf1HEPM-4oOfNM8bVeo"
 CHANNEL_LINK = "https://t.me/tradewithshuklaofficial"  # Replace with your channel link
 
 # Define the /start command handler
