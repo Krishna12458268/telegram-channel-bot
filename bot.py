@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = "8090320571:AAGPMBXpbV7JgIqjgr6iQ_eAP30kXZGnxNE"  # ← Yahan apna real token daalo
-CHANNEL_LINK = "https://t.me/yourchannelusername"  # ← Apna channel link daalo
+CHANNEL_LINK = "https://t.me/redirectsbot"  # ← Apna channel link daalo
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
